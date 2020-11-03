@@ -40,7 +40,7 @@ function MovieCard({ item }) {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          <Link to={`/detail/${item.id}`}> Share</Link>
+          <Link to={`/detail/${item.id}`}> Trailer</Link>
         </Button>
         <Box component="fieldset" mb={3} borderColor="transparent">
           <Typography component="legend">Rate</Typography>
